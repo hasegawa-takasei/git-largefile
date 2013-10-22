@@ -8,8 +8,8 @@ import sys
 import path
 import hashlib
 
-BASE_DIR = path.path('~/.gitasset').expanduser()
-DATA_DIR = BASE_DIR / 'data'
+BASE_DIR = path.path('~/Documents/develop/learn/samba_share/git_largefile').expanduser()
+DATA_DIR = BASE_DIR / 'data20131011_1'
 
 content = os.fdopen(sys.stdin.fileno(), 'rb').read()
 sha = hashlib.sha1()
